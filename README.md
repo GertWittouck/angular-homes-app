@@ -1,23 +1,19 @@
-# angular-homes-app
+# Angular Homes App
+- Install Angular if you don't have it installed
 
-## JSON server
-The application will try to fetch the application data through a fake Rest API served up with [json-server](https://github.com/typicode/json-server/tree/v0).
+  `npm install -g @angular/cli`
 
-Use the following command to install `JSON server` if you don't have it yet:
-```
-npm install -g json-server
-```
+- Clone this branch to your local machine
 
-A file called `db.json` needs to be created as well containing the data that will be served up by the fake REST API:
-```
-touch db.json
-```
+  `git clone -b homes-app-start git@github.com:angular/codelabs.git homes-app`
 
-Once this is done, start the server:
-```
-json-server --watch db.json
-```
+- Once the code has been downloaded
 
-## Further improvements to be made
+  `cd homes-app`
 
-1. Replace browser fetch with `Angular HttpClient`.
+- Install the depencies
+
+  `npm install` 
+
+- Run the application 
+
