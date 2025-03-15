@@ -11,7 +11,7 @@ npm install -g json-server
 A file called `db.json` needs to be created as well containing the data that will be served up by the fake REST API:
 ```
 touch db.json
-``
+```
 
 Once this is done, start the server:
 ```
