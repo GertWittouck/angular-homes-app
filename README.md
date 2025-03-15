@@ -17,3 +17,7 @@ Once this is done, start the server:
 ```
 json-server --watch db.json
 ```
+
+## Further improvements to be made
+
+1. Replace browser fetch with `Angular HttpClient`.
